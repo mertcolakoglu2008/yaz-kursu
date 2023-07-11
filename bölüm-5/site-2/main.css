@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.banner {
+  position: absolute;
+  text-align: center;
+  background-color: rgb(59, 59, 184);
+  display: block;
+  width: 50%;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0px auto;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  margin-left: -30%;
+  margin-top: -10%;
+}
+
+.banner h1,
+p {
+  color: white;
+}
+.banner h1 {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+.banner p {
+  font-size: 20px;
+}
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border: 1px solid white;
+  background-color: rgb(68, 53, 206);
+  margin-top: 15px;
+  width: 200px;
+  height: 60px;
+}
+@media (max-width: 1000px) {
+  .banner {
+    margin-left: -35%;
+    margin-top: -20%;
+  }
+}
+@media (max-width: 1200px) {
+  .banner {
+    margin-top: -15%;
+  }
+}
+@media (max-width: 528px) {
+  .banner {
+    margin-left: -40%;
+  }
+}
+@media (max-width: 570px) {
+  .banner {
+    top: 30%;
+  }
+}
+@media (max-width: 850px) {
+  .banner {
+    margin-top: -25%;
+  }
+}

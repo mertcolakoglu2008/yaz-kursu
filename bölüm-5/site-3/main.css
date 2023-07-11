@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.ornek-4{
+    position: absolute;
+}
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    position: relative;
+    left: 540px;
+    top: 125px;
+}
+.box-2{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    position: relative;
+    left: 170px;
+    bottom: 125px;
+    z-index: -1;
+}
+.image{
+    position: relative;
+    margin-left: 200px;
+}

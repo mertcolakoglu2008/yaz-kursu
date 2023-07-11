@@ -1,0 +1,7 @@
+table tr:nth-child(even){
+    background-color: greenyellow;
+    color: red;
+}
+td,th{
+   text-align: center;
+}

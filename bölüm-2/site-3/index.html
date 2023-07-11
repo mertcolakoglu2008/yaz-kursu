@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .input {
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Kişisel Bilgiler</legend>
+
+        <label for="name" class="label_border">ad :</label>
+        <input type="text" name="name" id="name" class="input" /><br />
+        <label for="surname" class="label_border">soyad :</label>
+        <input type="text" name="surname" id="surname" class="input" /><br />
+        <label for="age" class="label_border">yaşınız :</label>
+        <input
+          type="number"
+          name="age"
+          id="age"
+          min="0"
+          max="90"
+          class="input"
+        /><br />
+        <label for="iamge" class="label_border">resim ekle :</label>
+        <input type="file" name="image" id="image" class="input" /><br />
+        <label for="TC" class="label_border">TC kimlik numaranız :</label>
+        <input type="number" name="TC" id="TC" max="11" class="input" /><br />
+
+        <label for="gender" class="label_border">cinsiyet :</label>
+        E
+        <input type="radio" name="gender" value="E" class="input" />
+        K
+        <input type="radio" name="gender" value="K" /><br />
+
+        <label for="language" class="label_border">yabancı diller :</label>
+        İngilizce
+        <input type="checkbox" name="checkbox" id="language" class="input" />
+        Fransızca
+        <input type="checkbox" name="checkbox" id="language" class="input" />
+        Japonca
+        <input
+          type="checkbox"
+          name="checkbox"
+          id="language"
+          class="input"
+        /><br />
+        <label for="message" class="label_border">görüşünüz :</label><br />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="görüşünüz bizim için önemli"
+          class="input"
+        ></textarea>
+        <br />
+
+        <button type="reset" name="reset" id="reset" class="input">
+          reset
+        </button>
+        <button type="submit" name="submit" id="submit" class="input">
+          submit
+        </button>
+      </fieldset>
+    </form>
+    <form id="form2">
+      <fieldset>
+        <legend>kişisel bilgiler</legend>
+        <label for="name">Adınız :</label>
+        <input type="text" name="name" id="name" class="input" /><br />
+        <label for="surname">soyadınız :</label>
+        <input type="text" name="surname" id="surname" class="input" /><br />
+        <label for="password">şifreniz :</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="input"
+        /><br />
+
+        cinsiyetiniz : Erkek
+        <input type="radio" name="gender" value="male" class="input" />
+        Kadın
+        <input type="radio" name="gender" value="female" class="input" /><br />
+
+        Diller İngilizce
+        <input type="checkbox" name="checkbox" id="art" class="input" />
+        Fransızca
+        <input type="checkbox" name="checkbox" id="sport" class="input" />
+        Almanca
+        <input type="checkbox" name="checkbox" id="music" class="input" /><br />
+        <label for="state">yaşadığınız il</label>
+        <select name="state" id="state" class="input">
+          <option value="ankara">ankara</option>
+          <option value="İstanbul">İstanbul</option>
+          <option value="İzmir">İzmir</option>
+          <option value="kars">kars</option>
+          <option value="erzurum">Erzurum</option>
+          <option value="eskisehir">Eskişehir</option>
+          <option value="van">van</option>
+          <option value="bitlis">bitlis</option></select
+        ><br />
+        <label for="adress">Adresiniz</label><br />
+        <textarea
+          name="adress"
+          id="adress"
+          cols="30"
+          rows="10"
+          placeholder="adresiniz"
+          class="input"
+        ></textarea
+        ><br />
+        <button type="reset" name="reset" id="reset" class="input">
+          reset
+        </button>
+        <button type="submit" name="submit" id="submit" class="input">
+          submit
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>

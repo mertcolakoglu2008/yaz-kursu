@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      #block1 {
+        padding: 25px 0px 25px 0px;
+        background-color: black;
+        width: 395px;
+      }
+      #doga-resmi {
+        height: 190px;
+        margin-bottom: 100px;
+      }
+      #block2 {
+        display: inline-block;
+        padding: 190px 46px 100px 50px;
+        background-color: orange;
+        margin-right: -5px;
+      }
+      #block4 {
+        background-color: red;
+        padding: 0px 0px 100px 0px;
+        width: 300px;
+        margin-top: -104px;
+        margin-left: 95px;
+      }
+      #block3 {
+        display: inline-block;
+        width: 295px;
+        padding: 0px 0px 25px 100px;
+        background-color: greenyellow;
+      }
+      #paragraf{
+        display: inline;
+        margin-left: 40px;
+      }
+      #paragraf2{
+        display: inline;
+      }
+      #paragraf3{
+        display: inline;
+      }
+      #paragraf4{
+        display: inline;
+        margin-left: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <details>
+      <summary>HTML dersleri devam ediyor</summary>
+      <p>Eğitimin ilk gününde HTML etiketleri işleniyor</p>
+    </details>
+    <hr />
+    <div>
+      <a href="https://www.youtube.com/" target="_blank"
+        ><img
+          src="./images/1392_thumb_r.v1.jpg"
+          alt="Doga Resmi"
+          title="Doga Resmi"
+      /></a>
+    </div>
+    <hr />
+    <div>
+      <ol type="1">
+        <li>Galatasaray</li>
+        <li>Beşiktaş</li>
+        <li>Trabzonspor</li>
+        <li>Bursaspor</li>
+      </ol>
+      <ul style="margin-top: 20px" type="disc">
+        <li>introduction</li>
+        <li>Object oriented programing</li>
+        <li>Windows programlama</li>
+        <li>SQL server</li>
+        <li>ADO.Net</li>
+        <ul type="circle">
+          <li>Connected Mimari</li>
+          <li>Disconnected Mimari</li>
+          <li>XML</li>
+        </ul>
+        <li>Web programlama</li>
+        <ul type="circle">
+          <li>Static Web</li>
+          <ul type="square">
+            <li>HMTL</li>
+            <li>CSS</li>
+            <li>Javascript & Jquery</li>
+          </ul>
+          <li>Dinamic Web</li>
+          <ul type="square">
+            <li>ASP.Net</li>
+            <li>PHP</li>
+          </ul>
+        </ul>
+      </ul>
+    </div>
+    <hr />
+    <div>
+      <p contenteditable="True">Düzenlenebilir içerik</p>
+    </div>
+    <hr />
+    <div>
+      <table width="800px" cellspacing="5px">
+        <tr>
+          <th width="400px">Adı</th>
+          <th width="400px">Soyadı</th>
+        </tr>
+        <tr>
+          <th colspan="2">BU TABLO İÇERİSİNDE SINIF MEVCUDU YER ALMAKTADIR</th>
+        </tr>
+        <tr>
+          <td>Ahmet</td>
+          <td>Yıldız</td>
+        </tr>
+        <tr>
+          <td>Ali Veli</td>
+          <td>Tanır</td>
+        </tr>
+        <tr>
+          <td>Erhan</td>
+          <td>Ölçek</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div>
+      <img
+        src="./images/68164b374aec56e1da2398640b1e845a.jpg"
+        alt=""
+        usemap="#Map"
+        width="300px"
+      />
+      <map name="Map">
+        <area
+          shape="circle"
+          coords="120,70,100"
+          alt="Coffee"
+          href="https://www.swatch.com/"
+          target="_blank"
+        />
+      </map>
+    </div>
+    <hr />
+    <div>
+      <iframe
+        src="./images/1. HTML ve Web Geliştirici Konsol Hakkında.mp4"
+        width="500px"
+        height="300px"
+      ></iframe>
+      <iframe
+        src="./images/2. HTML - İlk Web Sayfası - Temel Düzen (Layout).mp4"
+        width="500px"
+        height="300px"
+      ></iframe>
+      <iframe
+        src="./images/3. Meta Etiketleri ve Yorum Satırları.mp4"
+        width="500px"
+        height="300px"
+      ></iframe>
+    </div>
+    <hr />
+    <div id="block1"></div>
+    <div id="block2"></div>
+    <img
+      src="./images/1392_thumb_r.v1.jpg"
+      alt=""
+      width="300px"
+      id="doga-resmi"
+    />
+    <div id="block4"></div>
+    <div id="block3"></div>
+    <hr />
+    <div>
+        <p id="paragraf2">DOM</p><br>
+        <p id="paragraf">Document Object Model</p><br>
+        <p id="paragraf3">a' nın değeri</p><br>
+        <p id="paragraf4">3</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+h3{
+    color: darkblue;
+    padding-left: 20px;
+}
+.checkboxes{
+    margin-left: 20px;
+}
+.formlar{
+    height: 150px;
+    border: 2px solid darkblue;
+    display: block;
+    width: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: blue; 
+    border-radius: 20px;
+}
+.deneme img{
+    width: 400px;
+    border-radius: 20px;
+}
+.deneme{
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+.deneme p{
+    text-align: center;
+
+}
+.deneme p:nth-child(6){
+    padding-bottom: 10px;
+}
+.deneme h3{
+    color: rgb(241, 140, 157);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.ikon{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: inline;
+    color: rgb(241, 140, 157);
+}
+.yazar{
+    font-weight: 100;
+    color: rgb(241, 140, 157);
+    display: inline;
+    margin-left: 15px;
+}
+.ikonlar{
+    float: right;
+    margin-right: 20px;
+}
+.ikonlar i{
+    color: rgb(241, 140, 157);
+    padding-left: 15px;
+}
