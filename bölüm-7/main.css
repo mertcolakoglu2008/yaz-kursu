@@ -1,0 +1,206 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Cormorant", serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Prata", serif;
+  font-family: "PT Serif", serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+header {
+  background-color: darkblue;
+}
+header h1 {
+  color: white;
+}
+#navbar ul {
+  display: flex;
+}
+#navbar ul li a {
+  padding: 1rem;
+}
+#navbar ul li a:hover {
+  background-color: rgb(84, 84, 242);
+  border-radius: 10px;
+}
+/* -- Home -- */
+#home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+#home img {
+  width: 300px;
+  height: auto;
+  border-radius: 100%;
+  padding: 1rem;
+}
+#home p {
+  opacity: 0.7;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+#home h2 {
+  align-items: center;
+}
+#home a {
+  background-color: darkblue;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 2rem;
+}
+#isim {
+  color: black;
+}
+#home a:hover {
+  background-color: rgb(255, 255, 255);
+  color: darkblue;
+  border: 1px solid darkblue;
+}
+/* -- Eğitimler -- */
+.eğitimler {
+  background-color: darkblue;
+}
+#eğitimler {
+  display: flex;
+  flex-direction: row;
+}
+#item {
+  width: 33%;
+  padding: 0.75rem;
+  text-align: center;
+}
+#item h2:hover {
+  color: rgb(131, 131, 255);
+}
+#item p:hover {
+  color: rgb(131, 131, 255);
+}
+#eğitimler p,
+h2 {
+  color: white;
+}
+/* -- Kurslar -- */
+#course {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+#course-info {
+  display: flex;
+  flex-direction: column;
+}
+#title {
+  font-weight: bold;
+}
+#course #information,
+#structor,
+#rating {
+  opacity: 0.7;
+}
+#image {
+  position: relative;
+  padding-right: 2rem;
+}
+#course #image span {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* -- Contact -- */
+#contact {
+  background-color: darkblue;
+  color: white;
+}
+#contact-form {
+  padding: 1rem;
+}
+.contact-control{
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 17px;
+}
+#contact label {
+  display: block;
+  padding: 0.5rem;
+}
+#contact h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+#Btn{
+  width: 100%;
+  padding: 10px;
+  margin-top: 1rem;
+
+}
+#social-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+}
+#social-links li a i{
+  padding: 1rem;
+  font-size: 2rem;
+}
+#social-links li a i:hover{
+  opacity: 0.8;
+}
+
+@media (max-width: 640px) {
+  #navbar {
+    flex-direction: column;
+    overflow: hidden;
+    height: 100px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  #eğitimler {
+    flex-direction: column;
+  }
+  #item {
+    width: 100%;
+  }
+  #course {
+    flex-direction: column;
+    align-items: center;
+  }
+  #course-info {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) {
+}
