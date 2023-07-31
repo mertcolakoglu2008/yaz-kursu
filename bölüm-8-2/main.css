@@ -5,6 +5,7 @@
 }
 #body{
   background-color: #F6F1F1;
+  overflow-x: hidden;
 }
 #container {
   max-width: 1400px;
@@ -29,7 +30,7 @@
 #navbar li a {
   text-decoration: none;
   color: black;
-  transition: 0.5s linear;
+  transition: 0.3s linear;
   -moz-transition: 1s ease;
   -ms-transition: 1s ease;
   -o-transition: 1s ease;
@@ -108,6 +109,12 @@ header {
   height: 670px;
   overflow: hidden;
 }
+#c3{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+}
 #img-1 {
   width: 100%;
   height: 670px;
@@ -130,6 +137,11 @@ header {
   border: 1px solid #17b0d9;
   color: #ffffff;
   border-radius: 30px;
+  transition: 0.3s linear;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: all 1s ease 0;
 }
 #buton:hover {
   background-color: #ffffff;
@@ -172,6 +184,7 @@ p {
   flex-direction: column;
   width: 100%;
   align-items: end;
+  padding-top: 2rem;
 }
 #boxes-2 {
   display: flex;
@@ -179,17 +192,20 @@ p {
   gap: 2rem;
   width: 100%;
   align-items: start;
+  padding-top: 2rem;
 }
 #img-2 {
   display: flex;
   padding: 0rem 2rem;
+  width: 400px;
+  padding: 5rem 2rem 0rem 2rem;
 }
 #circle-1 {
   border-radius: 100%;
   background-image: linear-gradient(to bottom right, #595690 70%, #343255);
   display: flex;
-  width: 170px;
-  height: 170px;
+  width: 180px;
+  height: 180px;
   color: white;
   flex-direction: column;
   gap: 1rem;
@@ -207,8 +223,8 @@ p {
 }
 #circle-2 {
   background-image: linear-gradient(to bottom right, #13658c 60%, #333154);
-  width: 170px;
-  height: 170px;
+  width: 180px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   border-radius: 100%;
@@ -221,8 +237,8 @@ p {
 }
 #circle-3 {
   background-image: linear-gradient(to bottom right, #159abe 60%, #0c586d);
-  width: 170px;
-  height: 170px;
+  width: 180px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   border-radius: 100%;
@@ -234,8 +250,8 @@ p {
 }
 #circle-4 {
   background-image: linear-gradient(to bottom right, #c8ba4e 60%, #8d8129);
-  width: 170px;
-  height: 170px;
+  width: 180px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   border-radius: 100%;
@@ -247,8 +263,8 @@ p {
 }
 #circle-5 {
   background-image: linear-gradient(to bottom right, #71af6d 60%, #3f623d);
-  width: 170px;
-  height: 170px;
+  width: 180px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   border-radius: 100%;
@@ -261,8 +277,8 @@ p {
 }
 #circle-6 {
   background-image: linear-gradient(to bottom right, #6282a3 60%, #333154);
-  width: 170px;
-  height: 170px;
+  width: 180px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   border-radius: 100%;
@@ -318,6 +334,42 @@ p {
   justify-content: space-around;
   padding: 0rem 2rem;
 }
+#container14 a li{
+  color: black;
+}
+#container14 li {
+  transition: 0.3s linear;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: all 0.2s ease 0;
+}
+#n-50 p{
+  transition: 0.3s linear;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: all 0.2s ease 0;
+}
+#n-50 a p:hover{
+  color:#159abe
+}
+#icons a i{
+  color: black;
+}
+#icons i {
+  color: black;
+  transition: 0.3s linear;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: all 0.2s ease 0;
+}
+#icons a i:hover{
+  color: #159abe;
+}
+#container14 a li:hover{
+  color: #159abe}
 #container5 {
   max-width: 1100px;
   margin: 0 auto;
@@ -368,6 +420,7 @@ p {
 #n-46 {
   display: flex;
   gap: 1rem;
+  justify-content: center;
 }
 #baslık-2 {
   font-size: 13px;
@@ -499,6 +552,11 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s linear;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: all 1s ease 0;
 }
 #square1:hover #yazi1{
   color: white;
@@ -552,7 +610,7 @@ p {
 #container10 {
   margin: 0 auto;
   max-width: 1100px;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
 }
 #box-area-3 {
   display: flex;
@@ -702,12 +760,32 @@ p {
   display: flex;
   justify-content: space-between;
 }
-#kuruluslar p {
-  color: black;
+#kuruluslar p{
   background-color: #f6f1f1;
   opacity: 0.5;
   padding: 10px 50px;
   border-radius: 10px;
+  transition: 0.3s linear;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: all 1s ease 0;
+  font-size: 20px;
+}
+#c5{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+#kuruluslar p:hover #link{
+  color:white;
+}
+#link{
+  color: black;
+  transition: 0.3s linear;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+  transition: all 1s ease 0;
 }
 #kuruluslar p:hover {
   color: white;
@@ -740,7 +818,7 @@ p {
 #n-48 {
   display: flex;
   justify-content: space-around;
-  width: 80%;
+  width: 100%;
   padding: 2rem 0rem;
   margin: 0 auto;
 }
@@ -756,7 +834,7 @@ p {
 }
 #icons {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 #list1 ul {
   list-style-type: none;
@@ -799,9 +877,12 @@ p {
 #n-51 {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 70%;
+  justify-content: start;
+  width: 100%;
   height: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  gap: 15rem;
 }
 #middle {
   transition: 0.5s ease;
@@ -931,6 +1012,16 @@ a {
     height: 241px;
   }
 }
+@media (min-width:1600px) {
+  #area{
+    top: 25%;
+  }
+}
+@media (max-width:1500px){
+   #area{
+    top: 40%;
+   }
+}
 @media (max-width: 1350px) {
   #img-9 {
     width: 200px;
@@ -1022,6 +1113,9 @@ a {
   #hiding-div4 {
     height: 96%;
   }
+    #kuruluslar p {
+    padding: 10px 30px;
+  }
 }
 @media (max-width: 1050px) {
   #img-8 {
@@ -1030,9 +1124,7 @@ a {
   #box-3 {
     width: 400px;
   }
-  #kuruluslar p {
-    padding: 10px 30px;
-  }
+
   #n-48 {
     flex-direction: column;
     align-items: center;
@@ -1059,6 +1151,9 @@ a {
     top: 30%;
   }
   #container3 {
+    flex-direction: column;
+  }
+  #c3{
     flex-direction: column;
   }
   #boxes-1 {
