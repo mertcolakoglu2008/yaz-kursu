@@ -679,12 +679,18 @@ p {
   background-image: url("./images/Group\ 5.png");
   width: 100%;
   height: 650px;
+  position: relative;
 }
 #area6 {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   padding: 2rem;
+  background: white;
+  width: 537px;
+  margin: 0 auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 #area6 p {
   color: black;
@@ -699,7 +705,6 @@ p {
 }
 #box-3 {
   width: 600px;
-  background-color: white;
   border-radius: 20px;
 }
 #img-8 {
@@ -1053,6 +1058,33 @@ a {
 #p{
   padding-left: 2rem;
 }
+#img-9{
+  width: 600px;
+  border-radius: 20px;
+  display: flex;
+}
+/* Özel geçiş butonları için stil ayarları */
+.custom-prev,
+.custom-next {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.custom-prev {
+  left: 0;
+}
+
+.custom-next {
+  right: 0;
+}
+
 @media (min-width:1250px) {
   .img-14{
     height: 241px;
@@ -1070,7 +1102,7 @@ a {
 }
 @media (max-width: 1350px) {
   #img-9 {
-    width: 200px;
+    border-radius: 20px;
   }
   #left-arrow,
   #right-arrow {
@@ -1170,7 +1202,9 @@ a {
   #box-3 {
     width: 400px;
   }
-
+  #area6{
+    width: 337px;
+  }
   #n-48 {
     flex-direction: column;
     align-items: center;
@@ -1292,7 +1326,7 @@ a {
 }
 @media (max-width: 850px) {
   #img-8 {
-    width: 300px;
+    width: 400px;
   }
   #box-3 {
     width: 300px;
@@ -1321,10 +1355,13 @@ a {
     flex-direction: column;
   }
   #area6 {
-    padding: 1rem;
+    padding: 2rem;
   }
   #img-9 {
-    width: 150px;
+    width: 450px;
+  }
+  #n-47{
+    margin-top: 75px;
   }
   #navbar {
     flex-direction: column;
@@ -1554,6 +1591,21 @@ a {
   #n-49 {
     padding: 0px;
   }
+  #img-9{
+    width: 350px;
+
+  }
+  #n-47{
+    margin-top: 100px;
+  }
+}
+@media (max-width: 500px){
+  #img-8{
+    width: 300px;
+  }
+  #area6{
+    width: 237px;
+  }
 }
 @media (max-width: 425px) {
   #img-3 {
@@ -1618,6 +1670,15 @@ a {
   #hiding-div3 {
     height: 97%;
   }
+  #img-9{
+    width: 250px;
+  }
+  #n-47{
+    margin-top: 100px;
+  }
+  .slick-slide img{
+    width: 0px;
+  }
 }
 @media (max-width: 400px) {
   #area h1 {
@@ -1661,4 +1722,26 @@ a {
   #container2 {
     height: 200px;
   }
+  #img-8{
+    width: 250px;
+  }
+  #area6{
+    width: 186px;
+  }
+  #box-3{
+    margin-top: 50px;
+  }
+  .custom-prev,
+.custom-next {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 }
