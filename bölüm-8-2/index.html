@@ -16,6 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./script.js">
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
@@ -179,65 +180,66 @@
         >
           Basından Haberler
         </h1>
-        <div id="n-46">
+        <div class="n-46">
           <div class="slider-container">
             <div class="slider2">
-          <div id="haber" class="slide">
+          <div  class="slide haber">
             <img
               src="./images/20200414_2_41891326_53925808_Web.png"
               alt=""
               width="700px"
-              id="img-3"
+              class="img-3"
             />
-            <div id="n-43">
-              <div id="n-44">
-                <p id="tarih">24.04.2023</p>
-                <p id="baslık">
+            <div class="n-43">
+              <div class="n-44">
+                <p class="tarih">24.04.2023</p>
+                <p class="baslık">
                   İstanbul Tıp Fakültesi Hastanesi'nde hastalar böyle tedavi
                   ediliyor
                 </p>
               </div>
-              <div id="devam">
+              <div class="devam">
                 <p>Devamını Oku</p>
                 <img
                   src="./images/Path 7.png"
                   alt=""
                   width="15px "
                   height="15px"
-                  id="img-13"
+                  class="img-13"
                 />
               </div>
             </div>
           </div>
 
-          <div id="haber" class="slide">
+          <div class="slide haber">
             <img
               src="./images/20200414_2_41891326_53925808_Web.png"
               alt=""
               width="700px"
-              id="img-3"
+              class="img-3"
             />
-            <div id="n-43">
-              <div id="n-44">
-                <p id="tarih">24.04.2023</p>
-                <p id="baslık">
+            <div class="n-43">
+              <div class="n-44">
+                <p class="tarih">24.04.2023</p>
+                <p class="baslık">
                   İstanbul Tıp Fakültesi Hastanesi'nde hastalar böyle tedavi
                   ediliyor
                 </p>
               </div>
-              <div id="devam">
+              <div class="devam">
                 <p>Devamını Oku</p>
                 <img
                   src="./images/Path 7.png"
                   alt=""
                   width="15px"
                   height="15px"
-                  id="img-13"
+                  class="img-13"
                 />
               </div>
             </div>
           </div>
         </div>
+        <div class="slider-dot-container"></div>
           <div class="custom-prev2"><i class="fas fa-chevron-left"></i></div>
           <div class="custom-next2"><i class="fas fa-chevron-right"></i></div>
         </div>
@@ -251,7 +253,7 @@
                 id="img-4"
               />
               <div id="n-45">
-                <p id="tarih">24.04.2023</p>
+                <p class="tarih">24.04.2023</p>
                 <h1 id="baslık-2">
                   Yöneticisi Doç Dr. Leyla Türker Şener’i İstanbul İşletme’mizde
                   ağırladık.
@@ -266,7 +268,7 @@
                 id="img-4"
               />
               <div id="n-45">
-                <p id="tarih">24.04.2023</p>
+                <p class="tarih">24.04.2023</p>
                 <h1 id="baslık-2">
                   Yöneticisi Doç Dr. Leyla Türker Şener’i İstanbul İşletme’mizde
                   ağırladık.
@@ -277,11 +279,6 @@
         </div>
 
         <!--sayfalar-->
-        <div id="sayfalar">
-          <div id="page-1"></div>
-          <div id="page-2"></div>
-          <div id="page-3"></div>
-        </div>
       </div>
     </section>
     <section>
@@ -446,17 +443,17 @@
           Aktiviteler
         </h3>
         <div id="activities" class="slider">
-          <div id="box-3">
+          <div class="box-3">
             <img
               src="./images/speaker-giving-talk-scientific-conference-audience-conference-hall-business-entrepreneurship-concept.png"
               alt=""
-              id="img-8"
+              class="img-8"
               style="margin: 0 auto; display: flex;" 
             />
-            <div id="area6">
+            <div class="area6">
               <p>20.06.2028</p>
               <h3>Lorem Ipsum Etkinliği</h3>
-              <div id="down-box">
+              <div class="down-box">
                 <p>
                   Lorem Ipsum, kısaca Lipsum, masaüstü yayıncılık ve basın yayın
                   sektöründe kullanılan taklit yazı bloğu olarak tanımlanır.
@@ -467,29 +464,62 @@
                   alt=""
                   width="25px"
                   height="25px"
-                  id="arrow"
+                  class="arrow"
                 />
               </div>
             </div>
           </div>
-          <div id="n-47">
+          <div class="box-3">
             <img
               src="./images/happy-kids-elementary-school.png"
               alt=""
-              width="350px"
-              id="img-9"
-              style="display: flex;  margin: 0 auto;"
+              class="img-8"
+              style="margin: 0 auto; display: flex;" 
             />
+            <div class="area6">
+              <p>20.06.2028</p>
+              <h3>Lorem Ipsum Etkinliği</h3>
+              <div class="down-box">
+                <p>
+                  Lorem Ipsum, kısaca Lipsum, masaüstü yayıncılık ve basın yayın
+                  sektöründe kullanılan taklit yazı bloğu olarak tanımlanır.
+                </p>
+
+                <img
+                  src="./images/Path 8.png"
+                  alt=""
+                  width="25px"
+                  height="25px"
+                  class="arrow"
+                />
+              </div>
+            </div>
           </div>
-          <div id="n-47">
+          <div class="box-3">
             <img
               src="./images/rear-view-audience-speakers-stage-conference-hall.png"
               alt=""
-              width="350px"
-              id="img-9"
-              class=""
-              style="display: flex; margin: 0 auto;"
+              class="img-8"
+              style="margin: 0 auto; display: flex;" 
             />
+            <div class="area6">
+              <p>20.06.2028</p>
+              <h3>Lorem Ipsum Etkinliği</h3>
+              <div class="down-box">
+                <p>
+                  Lorem Ipsum, kısaca Lipsum, masaüstü yayıncılık ve basın yayın
+                  sektöründe kullanılan taklit yazı bloğu olarak tanımlanır.
+                </p>
+
+                <img
+                  src="./images/Path 8.png"
+                  alt=""
+                  width="25px"
+                  height="25px"
+                  class="arrow"
+                />
+              </div>
+            </div>
           </div>
         </div>
         <div class="custom-prev"><i class="fas fa-chevron-left"></i></div>
@@ -578,7 +608,7 @@
                 width="400px"
                 height="175px"
                 id="img-12"
-                class="img-13"
+                class="img-12"
                 style="border-radius: 10px"
               />
               <div id="middle4" class="middle">
@@ -790,10 +820,14 @@
         $(".slider2").slick({
           prevArrow: $(".custom-prev2"),
           nextArrow: $(".custom-next2"),
+          dots:true,
+          autoplay:false
         });
+        $('.slick-dots li button').each(function() {
+    $(this).text(''); // Noktanın içeriğini sıfırla
+  });
       });
     </script>
         <script src="slider.js"></script>
-</script>
   </body>
 </html>

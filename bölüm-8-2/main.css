@@ -386,23 +386,23 @@ p {
   max-width: 1100px;
   margin: 0 auto;
 }
-#img-3 {
+.img-3 {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-#tarih {
+.tarih {
   color: black;
   font-size: 13px;
 }
-#haber {
+.haber {
   display: flex;
   flex-direction: column;
 }
-#baslık {
+.baslık {
   color: #146c94;
   font-size: 20px;
 }
-#n-43 {
+.n-43 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -412,24 +412,24 @@ p {
   border-bottom-left-radius: 20px;
   height: 100px;
 }
-#n-44 {
+.n-44 {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   width: 300px;
   justify-content: center;
 }
-#devam {
+.devam {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
   align-items: end;
 }
-#devam p {
+.devam p {
   color: #146c94;
 }
-#n-46 {
+.n-46 {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -682,7 +682,7 @@ p {
   height: 650px;
   position: relative;
 }
-#area6 {
+.area6 {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -693,23 +693,25 @@ p {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-#area6 p {
+.area6 p {
   color: black;
   width: 450px;
 }
-#area6 h3 {
+.area6 h3 {
   color: black;
 }
-#down-box {
+.down-box {
   display: flex;
   justify-content: space-between;
 }
-#box-3 {
+.box-3 {
   width: 600px;
   border-radius: 20px;
 }
-#img-8 {
+.img-8 {
   width: 600px;
+  height: 255px;
+  object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -726,7 +728,7 @@ p {
   bottom: 50%;
   right: 50%;
 }
-#n-47 {
+.n-47 {
   position: relative;
 }
 #container12 {
@@ -1059,7 +1061,7 @@ a {
 #p{
   padding-left: 2rem;
 }
-#img-9{
+.img-9{
   width: 600px;
   border-radius: 20px;
   display: flex;
@@ -1122,13 +1124,33 @@ a {
 .slide {
   flex: 0 0 100%; /* Slide'ların genişliği (yatayda 100% olacaklar) */
 }
-#img-3{
+.img-3{
   width: 784px;
 }
 
-#img-13{
+.img-13{
   width: 15px;
   height: 15px;
+}
+.slick-dots li button {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 2px solid #13658c;
+
+}.slick-dots {
+  display: flex;
+  justify-content: center; /* Noktaları yatayda ortala */
+  list-style: none; /* Nokta stilini sıfırla */
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+  padding: 2rem;
+}
+/* Aktif noktanın rengini değiştirelim */
+.slick-dots li.slick-active button {
+  background-color: #13658c; /* Aktif nokta rengi */
 }
 @media (min-width:1250px) {
   .img-14{
@@ -1146,7 +1168,7 @@ a {
    }
 }
 @media (max-width: 1350px) {
-  #img-9 {
+  .img-9 {
     border-radius: 20px;
   }
   #left-arrow,
@@ -1207,23 +1229,23 @@ a {
   }
 }
 @media (max-width: 1125px) {
-  #n-46 {
+  .n-46 {
     flex-direction: column;
   }
   #haber-area {
     flex-direction: row;
     justify-content: center;
   }
-  #n-44{
+  .n-44{
     width: 597px;
   }
-  #baslık{
+  .baslık{
     width: 440px;
   }
   .custom-next2, .custom-prev2{
     color: black;
   }
-  #haber {
+  .haber {
     width: 1016px;
     display: flex;
     align-items: center;
@@ -1252,13 +1274,13 @@ a {
   }
 }
 @media (max-width: 1050px) {
-  #img-8 {
+  .img-8 {
     width: 400px;
   }
-  #box-3 {
+  .box-3 {
     width: 400px;
   }
-  #area6{
+  .area6{
     width: 337px;
   }
   #n-48 {
@@ -1381,13 +1403,13 @@ a {
   }
 }
 @media (max-width: 850px) {
-  #img-8 {
+  .img-8 {
     width: 400px;
   }
-  #box-3 {
+  .box-3 {
     width: 300px;
   }
-  #down-box {
+  .down-box {
     gap: 1rem;
   }
   #n-51 {
@@ -1402,30 +1424,30 @@ a {
     width: 80%;
     margin: 0 auto;
   }
-  #n-44{
+  .n-44{
     width: 314px;
   }
-  #img-3{
+  .img-3{
     width: 500px;
   }
-  #baslık{
+  .baslık{
     width: 250px;
   }
 }
 @media (max-width: 730px) {
-  #arrow {
+  .arrow {
     display: none;
   }
   #c6{
     flex-direction: column;
   }
-  #area6 {
+  .area6 {
     padding: 2rem;
   }
-  #img-9 {
+  .img-9 {
     width: 450px;
   }
-  #n-47{
+  .n-47{
     margin-top: 75px;
   }
   #navbar {
@@ -1445,15 +1467,15 @@ a {
   #box-area-2 {
     width: 100%;
   }
-  #img-3 {
+  .img-3 {
     width: 387px;
   }
 
-  #baslık {
+  .baslık {
     font-size: 18px;
     width: 225px;
   }
-  #n-44 {
+  .n-44 {
     width: 200px;
   }
   #area2 {
@@ -1543,20 +1565,20 @@ a {
     display: flex;
     align-items: center;
   }
-  #img-9 {
+  .img-9 {
     display: none;
   }
   #left-arrow,
   #right-arrow {
     display: none;
   }
-  #area6 p {
+  .area6 p {
     width: 250px;
   }
   #img-4 {
     width: 400px;
   }
-  #n-46 {
+  .n-46 {
     gap: 1rem;
   }
 }
@@ -1657,44 +1679,44 @@ a {
   #n-49 {
     padding: 0px;
   }
-  #img-9{
+  .img-9{
     width: 350px;
 
   }
-  #n-47{
+  .n-47{
     margin-top: 100px;
   }
 }
 @media (max-width: 500px){
-  #img-8{
+  .img-8{
     width: 300px;
   }
-  #area6{
+  .area6{
     width: 237px;
   }
 }
 @media (max-width: 425px) {
-  #img-3 {
+  .img-3 {
     width: 300px;
     align-self: center;
   }
   #img-4 {
     width: 300px;
   }
-  #devam {
+  .devam {
     width: 113px;
     justify-content: end;
   }
-  #n-43 {
+  .n-43 {
     width: 268px;
     align-self: center;
     padding: 1rem 1rem;
   }
-  #baslık {
+  .baslık {
     font-size: 15px;
     width: 190px;
   }
-  #devam p{
+  .devam p{
     font-size: 14px;
   }
   #box-1 {
@@ -1731,7 +1753,7 @@ a {
   #img-12 {
     width: 300px;
   }
-  #n-46 {
+  .n-46 {
     gap: 1rem;
   }
   .img-13 {
@@ -1740,14 +1762,11 @@ a {
   #hiding-div3 {
     height: 97%;
   }
-  #img-9{
+  .img-9{
     width: 250px;
   }
-  #n-47{
+  .n-47{
     margin-top: 100px;
-  }
-  .slick-slide img{
-    width: 0px;
   }
 }
 @media (max-width: 400px) {
@@ -1792,13 +1811,13 @@ a {
   #container2 {
     height: 200px;
   }
-  #img-8{
+  .img-8{
     width: 250px;
   }
-  #area6{
+  .area6{
     width: 186px;
   }
-  #box-3{
+  .box-3{
     margin-top: 50px;
   }
   .custom-prev,
