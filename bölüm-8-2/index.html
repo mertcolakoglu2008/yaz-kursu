@@ -18,14 +18,8 @@
     />
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- Slick Slider -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
     <title>Dr. Mustafa Oral Öncül</title>
     <link rel="stylesheet" href="./main.css" />
@@ -186,7 +180,37 @@
           Basından Haberler
         </h1>
         <div id="n-46">
-          <div id="haber">
+          <div class="slider-container">
+            <div class="slider2">
+          <div id="haber" class="slide">
+            <img
+              src="./images/20200414_2_41891326_53925808_Web.png"
+              alt=""
+              width="700px"
+              id="img-3"
+            />
+            <div id="n-43">
+              <div id="n-44">
+                <p id="tarih">24.04.2023</p>
+                <p id="baslık">
+                  İstanbul Tıp Fakültesi Hastanesi'nde hastalar böyle tedavi
+                  ediliyor
+                </p>
+              </div>
+              <div id="devam">
+                <p>Devamını Oku</p>
+                <img
+                  src="./images/Path 7.png"
+                  alt=""
+                  width="15px "
+                  height="15px"
+                  id="img-13"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div id="haber" class="slide">
             <img
               src="./images/20200414_2_41891326_53925808_Web.png"
               alt=""
@@ -208,10 +232,15 @@
                   alt=""
                   width="15px"
                   height="15px"
+                  id="img-13"
                 />
               </div>
             </div>
           </div>
+        </div>
+          <div class="custom-prev2"><i class="fas fa-chevron-left"></i></div>
+          <div class="custom-next2"><i class="fas fa-chevron-right"></i></div>
+        </div>
           <!--2.haber bölümü-->
           <div id="haber-area">
             <div id="haber-2">
@@ -246,6 +275,7 @@
             </div>
           </div>
         </div>
+
         <!--sayfalar-->
         <div id="sayfalar">
           <div id="page-1"></div>
@@ -421,7 +451,7 @@
               src="./images/speaker-giving-talk-scientific-conference-audience-conference-hall-business-entrepreneurship-concept.png"
               alt=""
               id="img-8"
-              style="margin: 0 auto;"
+              style="margin: 0 auto; display: flex;" 
             />
             <div id="area6">
               <p>20.06.2028</p>
@@ -457,6 +487,7 @@
               alt=""
               width="350px"
               id="img-9"
+              class=""
               style="display: flex; margin: 0 auto;"
             />
           </div>
@@ -741,6 +772,10 @@
         </div>
       </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick Slider eklentisi -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
     <script>
       $(document).ready(function () {
         $(".slider").slick({
@@ -749,5 +784,16 @@
         });
       });
     </script>
+        <script src="slider.js"></script>
+<script>
+      $(document).ready(function () {
+        $(".slider2").slick({
+          prevArrow: $(".custom-prev2"),
+          nextArrow: $(".custom-next2"),
+        });
+      });
+    </script>
+        <script src="slider.js"></script>
+</script>
   </body>
 </html>
